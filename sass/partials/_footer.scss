@@ -1,0 +1,28 @@
+.footer {
+    display: block;
+    text-align: center;
+    background-color: $egg-white;
+    margin-top: 3em;
+
+    .email, .copyright {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .email a, .copyright{
+        color: $dark-grey;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .email {
+        margin-left: 30px;
+    }
+    .copyright {
+        margin-right: 30px;
+    }
+}

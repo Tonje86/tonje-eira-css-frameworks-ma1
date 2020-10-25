@@ -1,0 +1,29 @@
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: $egg-white;
+    text-transform: $uppercase;
+
+    button.navbar-toggler {
+        border: none;
+    }
+    .navbar-brand {
+        margin-left: 30px;
+        font-weight: 600;
+        font-family: $font-main;
+    }
+    .collapse {
+        justify-content: flex-end;
+        font-family: $font-navlinks;
+    }
+    li.nav-item.active a.nav-link {
+        color: $pink;
+    }
+}
+a.nav-link {
+    margin-left: 30px;
+}
+
+@media (min-width: 992px) {
+    a.nav-link {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,136 @@
+/* Fonts */
+/* Colors */
+nav.navbar.navbar-expand-lg.navbar-light {
+  background-color: #F4F3EE;
+  text-transform: uppercase;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light button.navbar-toggler {
+  border: none;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light .navbar-brand {
+  margin-left: 30px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light .collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light li.nav-item.active a.nav-link {
+  color: #C32C72;
+}
+
+a.nav-link {
+  margin-left: 30px;
+}
+
+@media (min-width: 992px) {
+  a.nav-link {
+    margin-left: 10px;
+  }
+}
+
+.col-sm-6 {
+  border-radius: 15px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 6px 12px #cacaca;
+          box-shadow: 0px 6px 12px #cacaca;
+  height: 250px;
+  max-width: 250px;
+}
+
+.col-sm-6.egg-color {
+  background-color: #F4F3EE;
+  border: none;
+}
+
+.col-sm-6.white-color {
+  background-color: #FFFFFF;
+  border: 2px solid #C32C72;
+}
+
+.col-sm-6.pink-color {
+  background-color: #C32C72;
+  border: 2px solid #FFFFFF;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3em;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 3em;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  background-color: #E5E5E5;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  background-color: #F4F3EE;
+  margin-top: 3em;
+}
+
+.footer .email, .footer .copyright {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footer .email a, .footer .copyright {
+  color: #8D8D8D;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .email {
+    margin-left: 30px;
+  }
+  .copyright {
+    margin-right: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
